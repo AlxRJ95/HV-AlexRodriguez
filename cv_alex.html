@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Alex Armando Rodríguez Jiménez</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.125rem; /* Adjust based on icon size and line position */
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background-color: #e2e8f0; /* slate-200 */
+        }
+        .timeline-item:first-child::before {
+            top: 1rem;
+        }
+         .timeline-item:last-child::before {
+            height: 1rem;
+        }
+        .timeline-icon {
+            position: absolute;
+            left: -2.75rem; /* Adjust to center on the line */
+            top: 0.5rem;
+            transform: translateY(-50%)
+        }
+    </style>
+</head>
+<body class="text-slate-700">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8 max-w-6xl bg-white shadow-2xl rounded-2xl my-8">
+        
+        <!-- Header Section -->
+        <header class="flex flex-col md:flex-row items-start md:items-center border-b border-slate-200 pb-8 mb-8">
+            <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-slate-200 shadow-md mb-4 md:mb-0 md:mr-8 flex-shrink-0">
+                <img src="https://placehold.co/200x200/E2E8F0/475569?text=ARJ" alt="Foto de Alex Rodríguez" class="w-full h-full object-cover">
+            </div>
+            <div class="flex-grow">
+                <h1 class="text-4xl md:text-5xl font-bold text-slate-800">Alex Armando Rodríguez Jiménez</h1>
+                <p class="text-xl md:text-2xl text-sky-600 mt-2">Desarrollador Web Full-Stack | Especialista en Cloud y Datos</p>
+                
+                <!-- Contact Info -->
+                <div class="flex flex-wrap gap-x-6 gap-y-2 mt-6 text-slate-500">
+                    <a href="mailto:alexarodriguezjiminez95@gmail.com" class="flex items-center hover:text-sky-600 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        alexarodriguezjiminez95@gmail.com
+                    </a>
+                    <a href="#" class="flex items-center hover:text-sky-600 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        LinkedIn
+                    </a>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        3502108372
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            
+            <!-- Left Column -->
+            <aside class="lg:col-span-1">
+                <div class="space-y-8">
+                    <!-- Profile Section -->
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-sky-500 pb-2 mb-4">Perfil Profesional</h2>
+                        <p class="text-slate-600 leading-relaxed">
+                            Desarrollador de Software proactivo y orientado a resultados, con más de 6 años de experiencia en análisis, optimización y desarrollo. Experto en la creación de aplicaciones web (React, Angular, Vue.js) y backends con Microsoft Dataverse y MySQL. Sólidos conocimientos en Google Cloud Platform (GCP), modelado de datos y automatización. Busco aplicar mis habilidades para impulsar la innovación y el crecimiento.
+                        </p>
+                    </div>
+
+                    <!-- Skills Section -->
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-sky-500 pb-2 mb-4">Habilidades Técnicas</h2>
+                        <div class="space-y-4">
+                            <div>
+                                <h3 class="font-semibold text-slate-700 mb-2">Lenguajes & Bases de Datos</h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">Java</span>
+                                    <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                                    <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">JavaScript</span>
+                                    <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">HTML/CSS</span>
+                                    <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">SQL</span>
+                                    <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">MySQL</span>
+                                    <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">Dataverse</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-700 mb-2">Frameworks & Librerías</h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full">React</span>
+                                    <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full">Angular</span>
+                                    <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full">Vue.js</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-700 mb-2">Cloud & Herramientas</h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Google Cloud (GCP)</span>
+                                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Git</span>
+                                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Scrum/Kanban</span>
+                                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Looker Studio</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-700 mb-2">IA Generativa & Herramientas</h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">IA Generativa (GenAI)</span>
+                                    <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Herramientas IA (Cursor, Copilot)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Education Section -->
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-sky-500 pb-2 mb-4">Formación</h2>
+                        <div class="space-y-4">
+                            <div>
+                                <h3 class="font-semibold text-slate-700">Ingeniería de Sistemas (6º Semestre)</h3>
+                                <p class="text-sm text-slate-500">Universidad Konrad Lorenz</p>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-700">Construcción de bases de datos con MySQL</h3>
+                                <p class="text-sm text-slate-500">SENA</p>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-700">Implementación de bases de datos NoSQL</h3>
+                                <p class="text-sm text-slate-500">SENA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Right Column -->
+            <main class="lg:col-span-2">
+                <h2 class="text-3xl font-bold text-slate-800 mb-8">Experiencia Laboral</h2>
+                <div class="relative pl-8 space-y-12">
+                    
+                    <!-- Experience Item 1 -->
+                    <div class="timeline-item relative">
+                        <div class="timeline-icon bg-sky-500 rounded-full w-4 h-4 ring-8 ring-white"></div>
+                        <p class="text-sm font-medium text-slate-500">Agosto 2023 – Actualidad</p>
+                        <h3 class="text-xl font-bold text-slate-800 mt-1">Analista de Gerencia (Desarrollador Web)</h3>
+                        <p class="text-md font-semibold text-slate-600 mb-3">Aerosan</p>
+                        <ul class="list-disc list-outside space-y-2 pl-5 text-slate-600">
+                            <li>Liderazgo en el <span class="font-semibold text-sky-700">diseño, desarrollo e implementación</span> de soluciones web (React, Angular, Vue.js) con backends en Microsoft Dataverse y MySQL, optimizando procesos clave en la red LATAM.</li>
+                            <li>Creación y mantenimiento de aplicaciones web que mejoraron la <span class="font-semibold text-sky-700">eficiencia operativa</span> y la experiencia del cliente.</li>
+                            <li>Diseño y gestión del <span class="font-semibold text-sky-700">modelado de datos</span> en Dataverse y MySQL, asegurando la integridad y eficiencia de la información.</li>
+                            <li>Implementación y administración de servicios en <span class="font-semibold text-sky-700">Google Cloud Platform (GCP)</span>, incluyendo Cloud Storage, BigQuery, Cloud Functions y App Engine.</li>
+                            <li>Desarrollo de <span class="font-semibold text-sky-700">dashboards interactivos</span> para la visualización de KPIs, facilitando la toma de decisiones basada en datos.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience Item 2 -->
+                    <div class="timeline-item relative">
+                        <div class="timeline-icon bg-sky-500 rounded-full w-4 h-4 ring-8 ring-white"></div>
+                        <p class="text-sm font-medium text-slate-500">Junio 2020 – Junio 2023</p>
+                        <h3 class="text-xl font-bold text-slate-800 mt-1">Analista de Sistemas</h3>
+                        <p class="text-md font-semibold text-slate-600 mb-3">Fabricajas Company S.A.S</p>
+                        <ul class="list-disc list-outside space-y-2 pl-5 text-slate-600">
+                            <li>Desarrollo de <span class="font-semibold text-sky-700">aplicativos web</span> para soluciones internas utilizando tecnologías como <span class="font-semibold text-sky-700">Angular, Java y MySQL</span>.</li>
+                            <li>Diseño e implementación de <span class="font-semibold text-sky-700">dashboards</span> para la visualización y manejo de KPIs, mejorando la toma de decisiones estratégicas.</li>
+                            <li>Colaboración en la optimización de procesos a través de la creación de <span class="font-semibold text-sky-700">soluciones de software a medida</span> para aumentar la productividad del equipo.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience Item 3 -->
+                    <div class="timeline-item relative">
+                        <div class="timeline-icon bg-sky-500 rounded-full w-4 h-4 ring-8 ring-white"></div>
+                        <p class="text-sm font-medium text-slate-500">Enero 2019 – Abril 2020</p>
+                        <h3 class="text-xl font-bold text-slate-800 mt-1">Analista de Sistemas</h3>
+                        <p class="text-md font-semibold text-slate-600 mb-3">Straton S.A.S.</p>
+                        <ul class="list-disc list-outside space-y-2 pl-5 text-slate-600">
+                            <li>Participación activa en la <span class="font-semibold text-sky-700">optimización de procesos y creación de sistemas</span> utilizando SQL.</li>
+                            <li>Contribución en el diseño de arquitecturas de software mediante el uso de <span class="font-semibold text-sky-700">UML</span>.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
